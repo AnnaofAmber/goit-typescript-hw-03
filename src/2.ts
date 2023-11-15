@@ -33,6 +33,9 @@ class Employee {
 
 class Manager extends Employee {
   // Реалізуйте конструктор та збільшіть salary на 10000
+  constructor(name: string, department: string){
+    super(name, department, 10000)
+  }
 }
 
 
